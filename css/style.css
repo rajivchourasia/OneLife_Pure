@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+.left_pane
+{
+	
+	margin-left: -200px;
+	width: 200px;
+	position: fixed;
+	top: 0;
+	left: 200px;
+	bottom: 0;
+	z-index: 1000;
+	overflow-y: auto;
+	-webkit-overflow-scroll: touch;
+	color:#CCC;
+	background: #191818;	/*#BE973A;*/
+	font-size:18px;
+	font-family:"Franklin Gothic Book", "Franklin Gothic Demi", "Franklin Gothic Demi Cond";
+	letter-spacing:normal;
+}
+.left_pane > ul,
+#nav > ul
+{
+	list-style:none;
+	padding:0px;
+}
+
+
+li#explore
+{
+	color: #fff;
+	padding:0.6em 0 0.6em 0.6em;
+	line-height:1.5em;
+	display:block;
+}
+.left_pane > ul > li > a
+{
+	text-decoration:none;
+	color: #666;
+	padding:0.6em 0 0.6em 0.6em;
+	line-height:1.5em;
+	display:block;
+	border-bottom:1px solid black;
+}
+.left_pane > ul > li> a:hover
+{
+	background:#999;
+	color:white;
+	transition:background ease 0.5s;
+}
+
+
+#layout
+{
+	padding-left:200px;
+	left:0px;
+}
+
